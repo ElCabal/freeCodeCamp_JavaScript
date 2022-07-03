@@ -1,5 +1,5 @@
 /**
- * It splits the string into an array, filters out all non-alphanumeric characters, joins the array
+ * It splits the string into an array, filters out all the non-alphanumeric characters, joins the array
  * back into a string, and then compares the string to its reverse.
  * @param str - the string to be tested
  * @returns A boolean value.
@@ -16,4 +16,4 @@ function palindrome(str) {
   return string1 === string2 ? true : false;
 }
 
-console.log(palindrome("eye"));
+palindrome("eye");
